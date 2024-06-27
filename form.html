@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup form</h1>
+        <form id="signupform" action="backend.php">
+            <input type="text" name="user_name" id="user_name" placeholder="Enter your name">
+            <span class="uem"></span>
+            <input type="email" name="mail" id="mail" placeholder="Enter your email">
+            <span class="mem"></span>
+            <input type="password" name="pass" id="pass" placeholder="Enter password">
+            <span class="pem"></span>
+            <input type="password" name="cpass" id="cpass" placeholder="Confirm password">
+            <input type="submit" value="Sign up">
+        </form>
+    </div>
+    <div class="signal"></div>
+    <div class="errorsignal"></div>
+    <script src="form.js"></script>
+</body>
+</html>

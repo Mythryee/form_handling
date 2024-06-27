@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.container{
+    width:400px;
+    height: 530px;
+    display:block;
+    margin: auto;
+    margin-top:100px;
+    border:8px solid blueviolet;
+    border-radius: 12px;
+    text-align: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+input{
+    padding:12px;
+    border-radius: 12px;
+    margin:12px;
+    border:3px solid blueviolet;
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    font-family: cursive;
+}
+.uem{
+    color:red;
+}
+.mem{
+    color:red;
+}
+.pem{
+    color:red;
+}
+.signal{
+    text-align:center;
+    color:green;
+}
+.errorsignal{
+    text-align:center;
+    color:red;
+}
